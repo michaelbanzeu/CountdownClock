@@ -1,13 +1,13 @@
 setInterval(() => {
-    var now = new Date();
-    var eventDate = new Date(2023, 06, 06);
-    var currentTime = now.getTime();
-    var eventTime = eventDate.getTime();
-    var remTime = eventTime - currentTime;
-    var s = Math.floor(remTime / 1000);
-    var m = Math.floor(s / 60);
-    var h = Math.floor(m / 60);
-    var d = Math.floor(h / 24);
+    let now = new Date();
+    let eventDate = new Date(2100, 1, 1);
+    let currentTime = now.getTime();
+    let eventTime = eventDate.getTime();
+    let remTime = eventTime - currentTime;
+    let s = Math.floor(remTime / 1000);
+    let m = Math.floor(s / 60);
+    let h = Math.floor(m / 60);
+    let d = Math.floor(h / 24);
 
     h %= 24;
     m %= 60;
