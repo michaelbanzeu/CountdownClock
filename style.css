@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -23,6 +23,17 @@ body {
   color: white;
   border-radius: 10px;
   font-size: 40px;
+}
+
+p.cd-date {
+  font-size: 14px;
+}
+
+p.cd-date input[type="date"] {
+  height: 32px;
+  padding: 4px;
+  border-radius: 16px;
+  margin-top: 40px;
 }
 
 .reveal {
