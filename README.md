@@ -1,2 +1,2 @@
 # CountdownClock
- A Countdown Clock to a (in the code) defined date 
+ A Countdown Clock to a defined date 
